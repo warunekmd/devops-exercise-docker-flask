@@ -21,18 +21,20 @@ the custom greeting.
 
 ## Scripting Exercise
 
-Provide a script in a language or tool of your choice that will parse the data returned from
-<http://localhost:5000/data> and create a file in a `files/` sub-directory named `<id>.txt`
-with the _name_ as the contents of the file.
+Provide a script or code in a language or tool of your choice that will parse
+the data returned from <http://localhost:5000/data> and create a file in a
+`files/` sub-directory named `<id>.txt` with the _name_ as the contents of the
+file.
 E.g. `files/3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3.txt`
 
-Read the SHA256 sum of each file's contents - it should match the `<id>`.
+Note: The SHA256 sum of each file's contents (`<name>`) should match the `<id>`.
 
-On screen, print out each item with this format:
+## Bonus Reverse Proxy Exercise
 
-```plain
-name: <name>, id: <id>, shasum: <sha256sum of created file>
-```
+Provide a reverse proxy configuration for the application. This can be anything -
+an Nginx, Apache, or Traefik config, a Terraform, CloudFormation, or CDK
+configuration for AWS Load Balancing, etc. It does not have to be implemented and
+functional in the exercise.
 
 ## Submittal
 
