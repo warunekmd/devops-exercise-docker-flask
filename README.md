@@ -31,7 +31,7 @@ Read the SHA256 sum of each file's contents - it should match the `<id>`.
 On screen, print out each item with this format:
 
 ```plain
-name: <name>, id=<id>, shasum=<sha256sum of created file>
+name: <name>, id: <id>, shasum: <sha256sum of created file>
 ```
 
 ## Submittal
