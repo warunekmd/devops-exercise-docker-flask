@@ -18,6 +18,7 @@ the custom greeting.
 Provide a script in a language or tool of your choice that will parse the data returned from
 <http://localhost:5000/data> and create a file in a `files/` sub-directory named `<id>.txt`
 with the _name_ as the contents of the file.
+E.g. `files/3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3.txt`
 
 Read the SHA256 sum of each file's contents - it should match the `<id>`.
 
@@ -26,3 +27,8 @@ On screen, print out each item with this format:
 ```plain
 name: <name>, id=<id>, shasum=<sha256sum of created file>
 ```
+
+## Submittal
+
+Push your solution to your own repository on GitHub, GitLab, another public
+repository, or provide an archive file (.zip) to the team.
