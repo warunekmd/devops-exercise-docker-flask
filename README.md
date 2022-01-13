@@ -2,6 +2,12 @@
 
 A Python Flask application that says "Hello, World!"
 
+## Goal
+
+* "Dockerize" the application, providing an image and a configuration for
+  running locally.
+* Provide a script to retrieve data from application and perform basic parsing.
+
 ## Docker Exercise
 
 * Provide a `Dockerfile` to build and run the application.
