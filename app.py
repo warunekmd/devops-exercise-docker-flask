@@ -12,7 +12,7 @@ Greetings
 """
 @app.route("/")
 def hello():
-    return "Hello, World!"
+    return "Hello, this is Michael Warunek's script!"
 
 """
 Return sample JSON data

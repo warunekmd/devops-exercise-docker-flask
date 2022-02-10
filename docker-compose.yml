@@ -5,6 +5,8 @@ services:
         container_name: nginx
         ports:
             - 80:80
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/default.conf
     flask:
         build:
             context: ./
@@ -16,6 +18,12 @@ services:
         environment:
             - FLASK_APP=/devops=exercise-docker-flask/app.py
         command: flask run --host=0.0.0.0
+        networks:
+            my-network:
+                aliases:
+                    - flask-app
         ports:
             - 8080:5000
+networks:
+    my-network:
 
