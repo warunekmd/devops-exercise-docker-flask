@@ -12,7 +12,9 @@ Greetings
 """
 @app.route("/")
 def hello():
-    return "Hello, this is Michael Warunek's script!"
+    key = 'APP_LINE'
+    value = os.getenv(key)
+    return value
 
 """
 Return sample JSON data

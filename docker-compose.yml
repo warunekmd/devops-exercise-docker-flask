@@ -18,10 +18,10 @@ services:
         image: flask:latest
         container_name: flask
         volumes:
-            - ./:/devops-exercise-docker-flask/
+            - ./devops-exercise-docker-flask:/devops-exercise-docker-flask/
         environment:
           FLASK_APP: app.py
-          PATH: ~/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
+          APP_LINE: "Hello, World!"
           PORT: 5000
           ENVIRONMENT: dev
         command: python3 -m flask run --host=0.0.0.0
