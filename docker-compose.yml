@@ -15,7 +15,7 @@ services:
         build:
             context: ./
             dockerfile: Dockerfile
-        image: flask:latest
+        #image: flask:latest
         container_name: flask
         volumes:
             - ./devops-exercise-docker-flask:/devops-exercise-docker-flask/
