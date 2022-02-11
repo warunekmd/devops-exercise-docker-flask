@@ -13,7 +13,7 @@ would have worked however had I had a Python3 bin reference on that container.
 do that after a successful launch script
 
 - On a further note, if I had more time I would probably set this repo up with ASDF plug in control as well as activating a pipenv shell to work out of but my time
-seems to be falling short to flesh that out.
+seems to be falling short to flesh that out, as well as writing more comprehensive notes, but I wanted to get something in on time for review before the interview
 
 # Simple Flask App
 
