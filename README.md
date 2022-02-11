@@ -1,9 +1,9 @@
-##Michael Warunek's Edits
+# Michael Warunek's Edits
 
 - Run `./launch.sh` to launch script
 
 
-##Editor's notes##
+## Editor's notes##
 
 - I spent my final minutes trying to run a Python script on the nginx container and even though I was able to successfully add the script file that I wanted without
 needing a Dockerfile for the service -- I concluded that it would be a bit longer of a logistical undertaking and testing this as far as tonight. I do my script
