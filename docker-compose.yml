@@ -26,7 +26,7 @@ services:
             - ./:/devops-exercise-docker-flask/
         environment:
           FLASK_APP: app.py
-          APP_LINE: "Hello, World!"
+          APP_LINE: "Hello, World! This is Michael Warunek's script! Thanks for coming"
           PORT: 5000
           ENVIRONMENT: dev
         command: python3 -m flask run --host=0.0.0.0 --port 5000
