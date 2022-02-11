@@ -2,14 +2,11 @@
 
 - Run `./launch.sh` to launch script
 
-
 ## Editor's note
 
-- I spent my final minutes trying to run a Python script on the nginx container, and even though I was able to successfully add the intended script file onto the targeted container (without a corresponding Dockerfile) -- I concluded that it would be a bit longer of a logistical undertaking at this point considering the time. I do believe that my script would have worked however and you can view it in `get-data.py`.
+- At this point I'm not sure if you're looking at my previous submission or this submission for the first time, but originally my thinking was to run this Python script `get-data.py` to parse the URL data results, but ultimately I chose to use `curl` with `jq` to retrieve the data from `http://127.0.0.1/data` for it's simplicity given the amount of time I had left. The results will output to a `results.txt` file at the end of the script run.
 
-- You will note that my script does perform a simple `curl` command at the end just to retrieve that data on the URL endpoint, letting me know that it can successfully perform that after a successful build
-
-- On a further note, I would normally include instructions for ASDF plug in control as well as activating a pipenv shell to work out of but my time
+- On a further note, I would normally implement and include instructions for ASDF plug in control as well as activating a pipenv shell to work out of but my time
 seems to be falling short to flesh that out, as well as writing more comprehensive notes, but I wanted to get something in on time for review before the interview. Thanks for the consideration and understanding. Happy to discuss it soon with you.
 
 # Simple Flask App
