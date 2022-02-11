@@ -5,15 +5,12 @@
 
 ## Editor's note
 
-- I spent my final minutes trying to run a Python script on the nginx container and even though I was able to successfully add the script file that I wanted without
-needing a Dockerfile for the service -- I concluded that it would be a bit longer of a logistical undertaking and testing this as far as tonight. I do my script
-would have worked however had I had a Python3 bin reference on that container.
+- I spent my final minutes trying to run a Python script on the nginx container, and even though I was able to successfully add the intended script file onto the targeted container (without a corresponding Dockerfile) -- I concluded that it would be a bit longer of a logistical undertaking at this point considering the time. I do believe that my script would have worked however and you can view it in `get-data.py`.
 
-- You will note that my script does perform a simple curl command at the end just to retrieve that data on the endpoint, letting me know that it can successfully
-do that after a successful launch script
+- You will note that my script does perform a simple `curl` command at the end just to retrieve that data on the URL endpoint, letting me know that it can successfully perform that after a successful build
 
-- On a further note, if I had more time I would probably set this repo up with ASDF plug in control as well as activating a pipenv shell to work out of but my time
-seems to be falling short to flesh that out, as well as writing more comprehensive notes, but I wanted to get something in on time for review before the interview
+- On a further note, I would normally include instructions for ASDF plug in control as well as activating a pipenv shell to work out of but my time
+seems to be falling short to flesh that out, as well as writing more comprehensive notes, but I wanted to get something in on time for review before the interview. Thanks for the consideration and understanding. Happy to discuss it soon with you.
 
 # Simple Flask App
 
