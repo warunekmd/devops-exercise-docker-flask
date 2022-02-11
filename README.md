@@ -4,7 +4,7 @@
 
 ## Editor's note
 
-- At this point I'm not sure if you're looking at my previous submission or this submission for the first time, but originally my thinking was to run this Python script `get-data.py` to parse the URL data results, but ultimately I chose to use `curl` with `jq` to retrieve the data from `http://127.0.0.1/data` for it's simplicity given the amount of time I had left. The results will output to a `results.txt` file at the end of the script run.
+- At this point I'm not sure if you're looking at my previous submission or this submission for the first time, but originally my thinking was to run this Python script `get-data.py` to parse the URL data results, but ultimately I chose to use `curl` with `jq` to retrieve the data from `http://127.0.0.1/data` for it's simplicity given the amount of time I had left. The results will output to a `results.txt` file at the end of the script run as I wasn't able to get around to dynamically naming the file via the results.
 
 - On a further note, I would normally implement and include instructions for ASDF plug in control as well as activating a pipenv shell to work out of and writing more structured and comprehensive notes with step by step instructions for reproducing uniform results across different environments/systems, but I wanted to get something in on time for review before the interview. Thanks for the consideration and understanding. Happy to discuss it soon with you.
 
