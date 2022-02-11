@@ -1,11 +1,15 @@
 version: '3.1'
 services:
     nginx:
+        #build:
+            #context: ./
+            #dockerfile: nginx/Dockerfile
         image: nginx:latest
+        #image: tiangolo/uwsgi-nginx:python3.9
         container_name: nginx
         volumes:
             - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
-            - ./get-data.py
+            #- ./nginx/get-data.py
         networks:
             - my-network
         ports:
